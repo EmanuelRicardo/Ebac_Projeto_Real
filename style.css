@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}   
+
+header {
+    background-color: black;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.container h1 {
+    font-size: 35px;
+}
+
+.container nav li a {
+    color: #fff;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.container nav li {
+    display: inline;
+}
+
+.container nav {
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
