@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color:black;
 }
 
 header {
@@ -24,7 +24,6 @@ header h1 {
 }
 
 header nav li a {
-    color: #fff;
     padding-left: 10px;
     font-size: 18px;
 }
@@ -48,6 +47,10 @@ h2 {
     padding-top: 10px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
 .container-jogos {
     display: flex;
     justify-content: space-between;
@@ -67,10 +70,60 @@ h2 {
 }
 
 .container-jogos p,
-h2 {
+h2,
+.contato-conteudo {
     color: rgba(255, 217, 0, 0.548);
+}
+
+.contato-conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 120px;
+}
+
+.contato-conteudo li  {
+    display: block;
+    padding-top: 10px;
+    list-style: none;
+
+}
+
+.contato-conteudo img {
+    height: 20px;
 }
 
 .sobre {
     padding-left: 8px;
 }
+
+
+input, 
+textarea, 
+button {
+    display:block;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom:10px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: rgba(255, 217, 0, 0.548);
+}
+
+form, 
+.contato-conteudo address {
+    padding-top: 10px;
+}
+
+.contato-conteudo address {
+    color: #fff;
+}
+
+
