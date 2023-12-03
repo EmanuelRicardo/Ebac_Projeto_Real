@@ -68,5 +68,9 @@ h2 {
 
 .container-jogos p,
 h2 {
-    color:#fff;
+    color: rgba(255, 217, 0, 0.548);
+}
+
+.sobre {
+    padding-left: 8px;
 }
